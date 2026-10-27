@@ -1,0 +1,15 @@
+{
+  "name": "Noode Development",
+  "dockerComposeFile": "../compose.yaml",
+  "service": "noode",
+  "workspaceFolder": "/app",
+  "shutdownAction": "none",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  }
+}
